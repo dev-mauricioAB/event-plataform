@@ -1,8 +1,16 @@
-import { gql, useQuery } from "@apollo/client";
-import { Event } from "./pages/Event";
+import { ApolloProvider, gql, useQuery } from "@apollo/client";
+import { BrowserRouter } from "react-router-dom";
+import { client } from "./lib/apolo";
+import { Router } from "./router";
 
 function App() {
-  return <Event />;
+  return (
+    <ApolloProvider client={client}>
+      <BrowserRouter>
+        <Router />
+      </BrowserRouter>
+    </ApolloProvider>
+  );
 }
 
 export default App;
