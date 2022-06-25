@@ -1,7 +1,8 @@
 import { gql, useQuery } from "@apollo/client";
+import { Event } from "./pages/Event";
 
 function App() {
-  return <h1>Opa</h1>;
+  return <Event />;
 }
 
 export default App;
