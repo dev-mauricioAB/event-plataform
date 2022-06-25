@@ -1,7 +1,7 @@
 import { ApolloProvider, gql, useQuery } from "@apollo/client";
 import { BrowserRouter } from "react-router-dom";
 import { client } from "./lib/apolo";
-import { Router } from "./router";
+import { Router } from "./Router";
 
 function App() {
   return (
