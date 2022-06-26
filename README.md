@@ -7,7 +7,7 @@
 
 ## 💡 Sobre o Projeto
 
-A 'Event-Plataform' é uma aplicação cujo objetivo é centralizar, de uma forma organizada, insformações como pofessores e seus cursos, disponibilizamos essas aulas em um player dentro da nossa plataforma. As informações sobre cursos, professores e pessoas inscritas são fornecidas de forma dinâmica através da plataforma [GraphCMS](https://app.graphcms.com/). Esse projeto foi criado no evento Ignit Lab, da [Rocketseat](https://app.rocketseat.com.br/).
+A 'Event-Plataform' é uma aplicação cujo objetivo é centralizar, de uma forma organizada, informações como professores e seus cursos, disponibilizamos essas aulas em um player dentro da nossa plataforma. As informações sobre cursos, professores e pessoas inscritas são fornecidas de forma dinâmica através da plataforma [GraphCMS](https://app.graphcms.com/). Esse projeto foi criado no evento Ignit Lab, da [Rocketseat](https://app.rocketseat.com.br/).
 
 <div align="center" style="display:flex;flex-direction:column;align-items:center">
   <div style="display: flex;justify-content: space-between;">
