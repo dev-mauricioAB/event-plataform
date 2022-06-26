@@ -1,4 +1,4 @@
-<div style="display:flex;flex-direction: column; align-items:center;">
+<div style="display:flex;flex-direction: column; align-items:center;padding-top:1rem">
     <img src=".github/logo.png" style="margin:1rem;border-radius:5px">  
     <hr style="width:100%", size="1", color=black>  
 </div>
