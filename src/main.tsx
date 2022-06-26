@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
+import { client } from "./lib/apolo";
 
 import "./styles/global.css";
 
