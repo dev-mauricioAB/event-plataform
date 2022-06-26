@@ -32,6 +32,7 @@ const GET_LESSON_BY_SLUG_QUERY = gql`
       title
       id
       description
+      videoId
       teacher {
         bio
         avatarURL
@@ -55,6 +56,8 @@ export function Video({ lessonSlug }: VideoProps) {
       </div>
     );
   }
+
+  console.log(data?.lesson);
 
   return (
     <div className="flex-1">
@@ -105,7 +108,7 @@ export function Video({ lessonSlug }: VideoProps) {
               className="p-4 text-sm border border-blue-500 flex items-center rounded font-bold uppercase gap-2 justify-center hover:bg-blue-500 hover:text-gray-900 transition-colors"
             >
               <Lightning />
-              Comunidade do Discord
+              Acesse o desafio
             </a>
           </div>
         </div>
